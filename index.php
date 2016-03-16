@@ -53,7 +53,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">DMC PORTFOLIO</a>
+            <a class="navbar-brand logo-spin" href="index.php">David McGowan</a>
         </div>
 
           <div class="navbar-collapse collapse navbar-right">
@@ -111,10 +111,10 @@
          <div class="row homeSection">
              <div class="col-lg-10 col-lg-offset-1 section">
                  <div class="row content-row section">
-                     <div class="col-md-2">
+<!--                      <div class="col-md-2">
                          <img src="img/about-2.jpg" class="img-responsive" alt="David McGowan">
-                     </div>
-                     <div class="col-md-10">
+                     </div> -->
+                     <div class="col-md-12">
                          <h3>Hello!</h3>
 						<p>
 						  My name is David McGowan, a creative web developer and designer from Glasgow. I am extremely enthusiastic about front-end web design in which I hope to continually advance my skillsets. 
@@ -251,9 +251,9 @@
                     <div class="hline-w"></div>
                     <p>
                         <a href="http://www.facebook.com/ayeamdavid" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                        <a href="http://twitter.com/ayeamdavid" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                        <a href="https://twitter.com/davidwtmcg" target="_blank"><i class="fa fa-twitter-square"></i></a>
                         <a href="https://plus.google.com/u/0/116750043333180629543" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-                        <a href="http://www.linkedin.com/pub/david-mcgowan/68/761/97" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.linkedin.com/in/davidmcg1985" target="_blank"><i class="fa fa-linkedin-square"></i></a>
                         <a href="https://github.com/davidmcg1985" target="_blank"><i class="fa fa-github"></i></a>
                     </p>
                 </div>

@@ -1,0 +1,178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"User",
+				"UserAdmin"
+			],
+			[
+				"App",
+				"AppController"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/static/css/style.css",
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/templates/photo_detail.html",
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/views.py",
+		"/C/Users/David/Desktop/custom_404.html",
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/templates/custom_404.html",
+		"/C/Users/David/Desktop/photozero-digitalocean/photozero/settings/base.py",
+		"/C/Users/David/Desktop/photozero-digitalocean/photozero/settings/local.py",
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/templates/base.html",
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/tests.py",
+		"/C/Users/David/Desktop/photozero-digitalocean/.gitignore",
+		"/C/Users/David/Desktop/photozero-digitalocean/timeline/admin.py",
+		"/C/Users/David/Desktop/photozero-digitalocean/testusers.json",
+		"/C/Users/David/Desktop/photozero-digitalocean/fixtures/test-users",
+		"/C/Users/David/Envs/photozero/Scripts/django-admin.py",
+		"/C/Users/David/Desktop/angularjs/angular-phonecat/app/index.html",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/Model/Post.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/Model/User.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/Model/user.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/Config/routes.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/View/Posts/index.ctp",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/View/Posts/view.ctp",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/View/Posts/add.ctp",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/View/Posts/edit.ctp",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/Controller/PostsController.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/View/Errors/missing_controller.ctp",
+		"/F/davidmcg_sss1_cakephp/xampp/apache/conf/httpd.conf",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/test.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/blog/app/Config/database.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/cakephp280/app/Config/database.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/cakephp280/app/Config/bootstrap.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/cakephp280/app/Controller/AppController.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/cakephp280/app/Config/core.php",
+		"/F/davidmcg_sss1_cakephp/xampp/htdocs/cakephp280/app/View/Layouts/default.ctp",
+		"/F/davidmcg_sss1_cakephp/xampp/phpMyAdmin/config.inc.php",
+		"/F/davidmcg_sss1_cakephp/xampp/mysql/bin/my.ini"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"');\n",
+			"LoadModule rewrite_module libexec/apache2/mod_rewrite.so",
+			"cakplugin"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true
+}
