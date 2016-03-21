@@ -17,6 +17,7 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,900);
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,900);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Average+Sans|Montserrat|Cardo|Josefin+Sans|Playfair+Display);
 @import url("prettyPhoto.css") screen;
 
 * {
@@ -30,25 +31,23 @@ body {
 	margin: 0; 
 	height: 100%; 
 	color: #384452;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Average Sans', sans-serif;
 	font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Arvo';
-    color: #000000;
-	font-weight: 700;
+	font-family: 'Fjalla One', sans-serif;
+    color: #4B4747;
+	font-weight: 500;
+    text-transform: uppercase;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	/*font-family: 'Lato', sans-serif;*/
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
 	color: #384452; 
 	margin-top: 10px; 
 }
@@ -77,6 +76,11 @@ a:hover,
 a:focus {
   text-decoration: none;
   color:#87bfd6 !important;
+}
+
+a:focus {
+    outline: none !important;
+    outline-offset: -2px;
 }
 
 .btn-primary {
@@ -139,9 +143,9 @@ a:focus {
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Average Sans', sans-serif;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 14px;
     text-transform: uppercase;
 }
 
@@ -152,6 +156,7 @@ a:focus {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #4bacdd;
 	background-color: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .navbar-default {
@@ -163,6 +168,10 @@ a:focus {
 .navbar-nav {
     float: left;
     margin: 10px;
+}
+
+.navbar-toggle {
+    top: 10px !important;
 }
 
 /* Footer */
@@ -183,9 +192,6 @@ a:focus {
 
 #footerwrap h4 {
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
 }
 
 #footerwrap i {
@@ -218,6 +224,26 @@ a:focus {
     color: #FFF;
     background-color: #4BACDD;
     border-color: #4BACDD;
+}
+
+.icon-fb:hover {
+    color: #3b5998 !important;
+}
+
+.icon-twitter:hover {
+    color: #55acee !important;
+}
+
+.icon-gplus:hover {
+    color: #dd4b39 !important;
+}
+
+.icon-linkedin:hover {
+    color: #007bb5 !important;
+}
+
+.icon-github:hover {
+    color: #ffffff !important;
 }
 
 /****** HOME ******/
@@ -270,7 +296,7 @@ a:focus {
 /****** PORTFOLIO ******/
 
 .mainPortfolio {
-    margin-top: 40px;
+    margin-top: 140px;
     margin-bottom: 50px;
 }
 
@@ -358,7 +384,7 @@ a:focus {
 /****** CONTACT ******/
 
 .mainContact {
-    margin-top: 40px;
+    margin-top: 140px;
     margin-bottom: 50px;
 }
 
@@ -370,12 +396,13 @@ a:focus {
 /****** ABOUT ******/
 
 .mainAbout {
-    margin-top: 40px;
+    margin-top: 140px;
     margin-bottom: 50px;
 }
 
 .about-pic {
     padding: 0 0 50px 0;
+    text-align: center;
 }
 
 .aboutWorks {

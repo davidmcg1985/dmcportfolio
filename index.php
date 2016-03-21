@@ -19,12 +19,14 @@
 
     <link rel="shortcut icon" href="img/favicon.gif">
 
-    <title>DMC Portfolio | Home</title>
+    <title>David McGowan | Home</title>
 
     <!--CSS -->
     <link href="css/bootstrap-cosmo.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome-animation.min.css" rel="stylesheet">
+
 
     <!-- favicon & mobile icons --->
     <link rel="icon" href="img/icons/dmc32x32.png" sizes="32x32" /><!-- 32x32 -->
@@ -131,22 +133,22 @@
 
          <div class="row homeSection">
              <div class="col-lg-10 col-lg-offset-1 section">
-                 <h4>Latest Projects</h4>
+                 <h4>Latest Projects.</h4>
 
                  <div class="row content-row">
                                      <br/>
                                      <div class="col-xs-12 col-md-4 col-sm-4 portSection">
                                          <div class="image-box">
                                              <div class="overlay-container">
-                                                 <img src="img/portfolio/portfolio-mps.jpg" alt="McGowan Property Services">
+                                                 <img src="img/portfolio/portfolio-photozero.jpg" alt="PhotoZero">
                                                  <a class="overlay" href="portfolio.html">
                                                      <i class="fa fa-link"></i>
                                                  </a>
                                              </div>
                                          </div>
                                          <div class="aboutWorks centered">
-                                             <h4>McGowan Property Services</h4>
-                                             <p>Website Design</p>
+                                             <h4>PhotoZero</h4>
+                                             <p>Honours Project</p>
                                          </div>
                                      </div>
 
@@ -191,14 +193,14 @@
 
          <div class="row homeSection">
              <div class="col-lg-10 col-lg-offset-1 section">
-                 <h4>Latest Blog Posts...</h4>
+                 <h4>Latest Post.</h4>
                  <br/>
                  <ul class="list-group skills">
 				  <?php
                  	require($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-load.php');
                  	$args = array(
                  		// 'cat' => 3, // Only source posts from a specific category
-                 		'posts_per_page' => 3 // Specify how many posts you'd like to display
+                 		'posts_per_page' => 1 // Specify how many posts you'd like to display
                  	);
                  	$latest_posts = new WP_Query( $args );
                  	if ( $latest_posts->have_posts() ) {
@@ -236,7 +238,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h4>CONTACT ME</h4>
+                    <h4>CONTACT ME.</h4>
                     <div class="hline-w"></div>
                     <p>
                         Tel: 0141 637 5872<br/>
@@ -247,26 +249,26 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <h4>SOCIAL MEDIA</h4>
+                    <h4>SOCIAL MEDIA.</h4>
                     <div class="hline-w"></div>
                     <p>
-                        <a href="http://www.facebook.com/ayeamdavid" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                        <a href="https://twitter.com/davidwtmcg" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://plus.google.com/u/0/116750043333180629543" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-                        <a href="https://www.linkedin.com/in/davidmcg1985" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="https://github.com/davidmcg1985" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="http://www.facebook.com/ayeamdavid" target="_blank"><i class="fa fa-facebook-square faa-vertical animated-hover icon-fb"></i></a>
+                        <a href="https://twitter.com/davidwtmcg" target="_blank"><i class="fa fa-twitter-square faa-vertical animated-hover icon-twitter"></i></a>
+                        <a href="https://plus.google.com/u/0/116750043333180629543" target="_blank"><i class="fa fa-google-plus-square faa-vertical animated-hover icon-gplus"></i></a>
+                        <a href="https://www.linkedin.com/in/davidmcg1985" target="_blank"><i class="fa fa-linkedin-square faa-vertical animated-hover icon-linkedin"></i></a>
+                        <a href="https://github.com/davidmcg1985" target="_blank"><i class="fa fa-github-square faa-vertical animated-hover icon-github"></i></a>
                     </p>
                 </div>
 
                 <div class="col-lg-4">
-                    <h4>USEFUL STUFF</h4>
+                    <h4>USEFUL STUFF.</h4>
                     <div class="hline-w"></div>
                     <p>
                         <a href="blog/index.php">Blog</a><br/>
                         <a href="http://www.uws.ac.uk" target="_blank">UWS Website</a><br/>
                         <a href="documents/cv_david_mcgowan.pdf" target="_blank">Download my CV</a>
                     </p>
-                    <p style="position: relative; top:30px;" class="pull-right">&copy; DMC Portfolio 2016</p>
+                    <p style="position: relative; top:30px;" class="pull-right">&copy; David McGowan 2016</p>
                 </div>
 
 
