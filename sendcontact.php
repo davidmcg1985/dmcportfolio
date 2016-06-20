@@ -5,8 +5,8 @@ $field_email = $_POST['email'];
 $field_tel = $_POST['phone'];
 $field_message = $_POST['message'];
 
-$mail_to = 'david@dmcportfolio.co.uk, dmcgweb101@gmail.com';
-$subject = 'Enquiry from a dmcportfolio.co.uk visitor '.$field_name;
+$mail_to = 'contact@david-mcgowan.co.uk, dmcgweb101@gmail.com';
+$subject = 'Enquiry from a david-mcgowan.co.uk visitor '.$field_name;
 
 $body_message = 'You have received an enquiry'."\n";
 $body_message = 'From: '.$field_name."\n";

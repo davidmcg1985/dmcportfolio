@@ -17,7 +17,9 @@
     <meta property="article:publisher" content="http://www.facebook.com/ayeamdavid">
     <meta property="og:image" content="http://www.david-mcgowan.co.uk/img/icons/dmc270x270.png"><!-- 200x200 minimum -->
 
-    <title>David McGowan | About</title>
+    <link rel="shortcut icon" href="img/favicon.gif">
+
+    <title>David McGowan | Home</title>
 
     <!--CSS -->
     <link href="css/bootstrap-cosmo.min.css" rel="stylesheet">
@@ -25,7 +27,8 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/font-awesome-animation.min.css" rel="stylesheet">
 
-    <!-- favicon & mobile icons -->
+
+    <!-- favicon & mobile icons --->
     <link rel="icon" href="img/icons/dmc32x32.png" sizes="32x32" /><!-- 32x32 -->
     <link rel="icon" href="img/icons/dmc192x192.png" sizes="192x192" /><!-- 192x192 -->
     <link rel="apple-touch-icon-precomposed" href="img/icons/dmc180x180.png"><!-- 180x180 -->
@@ -53,10 +56,11 @@
                 </button>
                 <a class="navbar-brand" href="index.html">David McGowan <span class="navbar-logo-hide">&#47;&#47; Web Developer</span></a>
             </div>
+
             <div class="navbar-collapse collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">HOME</a></li>
-                    <li class="active"><a href="about.html">ABOUT</a></li>
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li><a href="portfolio.html">PORTFOLIO</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
@@ -66,138 +70,62 @@
 
 
     <!-- *****************************************************************************************************************
-     CONTACT CONTENT
+     HOME PAGE SLIDER
      ***************************************************************************************************************** -->
 
-    <div class="container mainAbout">
+    <div class="container mainSlider">
         <div class="row">
-            <div class="col-lg-4 col-lg-offset-4 about-pic">
-                <img src="img/me-square.jpg" alt="David">
-            </div>
-        </div>
+            <div class="col-lg-10 col-lg-offset-1 sliderHome">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
 
-        <!-- About Me -->
-        <div class="row">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/home-slider/single01.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/home-slider/single02.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/home-slider/single03.png" alt="">
+                        </div>
+                    </div>
+                </div><!--/Carousel -->
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
+    <!-- *****************************************************************************************************************
+     MAIN CONTENT
+     ***************************************************************************************************************** -->
+
+    <div class="container mainSection">
+
+        <div class="row homeSection">
             <div class="col-lg-10 col-lg-offset-1 section">
-                <h4>About Me.</h4>
-                <p>
-                    My name is David McGowan, a web developer from Glasgow currently working for <a href="http://www.screenmedia.co.uk" target="_blank">Screenmedia</a>.
-                    I am extremely enthusiastic about all things web!
-                </p>
-                <p>
-                    I began managing e-commerce websites for previous employers over the course
-                    of 8 years. In 2011 I decided that I wanted to learn more about the development
-                    aspect and swapped my employment for a place at the City of Glasgow College
-                    studying Interactive Media. I then progressed on to study Web and
-                    Mobile Development BSc (Hons) at the University of the West of Scotland where I achieved a
-                    first class honours award.
-                </p>
-                <p>
-                    My work experience combined with the skills I have gained at
-                    university have helped me understand projects from both
-                    a client and developers perspective. I am focused on
-                    expanding my skillset and strive to learn new languages
-                    and technologies in my own personal time
-                </p>
-            </div>
-        </div>
-
-        <!-- Technologies -->
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 section">
-                <h4>Skills.</h4>
-                <p>I have gained experience in technologies &amp; languages such as:</p>
-                <div class="col-lg-3 section-list">
-                    <ul class="list-group skills">
-                        <li class="list-group-item active">
-                            Front-End
-                        </li>
-                        <li class="list-group-item">
-                            HTML5 &amp; CSS
-                        </li>
-                        <li class="list-group-item">
-                            JavaScript, jQuery &amp; AngularJS
-                        </li>
-                        <li class="list-group-item">
-                            PHP
-                        </li>
-                        <li class="list-group-item">
-                            ASP.NET - VisualBasic &amp; C#
-                        </li>
-                        <li class="list-group-item">
-                            Bootstrap Framework
-                        </li>
-                    </ul>
+                <div class="row content-row section">
+                    <div class="col-md-12">
+                        <h3>Hello!</h3>
+                        <p>
+                            My name is David McGowan, a web developer from Glasgow currently working for <a href="http://www.screenmedia.co.uk" target="_blank">Screenmedia</a>.
+                            I am extremely enthusiastic about all things web!
+                        </p>
+                    </div>
                 </div>
-
-                <div class="col-lg-3 section-list">
-                    <ul class="list-group skills">
-                        <li class="list-group-item active">
-                            Server-Side
-                        </li>
-                        <li class="list-group-item">
-                            Django &amp; Python
-                        </li>
-                        <li class="list-group-item">
-                            Apache &amp; Nginx
-                        </li>
-                        <li class="list-group-item">
-                            MySQL, SQL Server, PostgreSQL
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 section-list">
-                    <ul class="list-group skills">
-                        <li class="list-group-item active">
-                            CMS
-                        </li>
-                        <li class="list-group-item">
-                            Wordpress
-                        </li>
-                        <li class="list-group-item">
-                            Concrete5
-                        </li>
-                        <li class="list-group-item">
-                            Joomla
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 section-list">
-                    <ul class="list-group skills">
-                        <li class="list-group-item active">
-                            Other Tools
-                        </li>
-                        <li class="list-group-item">
-                            Git (Github &amp; Bitbucket)
-                        </li>
-                        <li class="list-group-item">
-                            Heroku, Digital Ocean &amp; Google App Engine
-                        </li>
-                        <li class="list-group-item">
-                            Adobe Photoshop, Illustrator &amp; InDesign
-                        </li>
-                    </ul>
+                <div class="row content-row">
+                    <div class="col-lg-12  section">
+                        <a href="about.html" class="btn btn-primary pull-right">More about me!</a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- My Interests -->
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 section">
-                <h4>Personal Interests.</h4>
-                <p>
-                    I enjoy keeping active through playing football, running,
-                    cycling and the occasional munro climb. I have a keen
-                    passion for travelling. I have traveled extensively in Europe
-                    and would like to continue my travels in South-East Asia
-                    where I love the culture and in particular the food.
-                </p>
-            </div>
-        </div>
-
-        <div class="row">
+        <div class="row homeSection">
             <div class="col-lg-10 col-lg-offset-1 section">
                 <h4>Latest Projects.</h4>
 
@@ -257,8 +185,6 @@
             </div>
         </div>
 
-    </div><!--/col-lg-10 -->
-    </div><!--/row -->
     </div><!--/container -->
     <!-- *****************************************************************************************************************
      FOOTER
@@ -327,6 +253,7 @@
         ga('send', 'pageview');
 
     </script>
+
 
 </body>
 </html>
