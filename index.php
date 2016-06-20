@@ -55,7 +55,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand logo-spin" href="index.php">David McGowan</a>
+            <a class="navbar-brand" href="index.php">David McGowan <span class="navbar-logo-hide">&#47;&#47; Web Developer</span></a>
         </div>
 
           <div class="navbar-collapse collapse navbar-right">
@@ -77,7 +77,7 @@
 
     <div class="container mainSlider">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 centered section">
+            <div class="col-lg-10 col-lg-offset-1 sliderHome">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -137,7 +137,7 @@
 
                  <div class="row content-row">
                                      <br/>
-                                     <div class="col-xs-12 col-md-4 col-sm-4 portSection">
+                                     <div class="col-xs-12 col-lg-4 col-md-6 col-sm-6 portSection">
                                          <div class="image-box">
                                              <div class="overlay-container">
                                                  <img src="img/portfolio/portfolio-photozero.jpg" alt="PhotoZero">
@@ -152,7 +152,7 @@
                                          </div>
                                      </div>
 
-                                     <div class="col-xs-12 col-md-4 col-sm-4 portSection">
+                                     <div class="col-xs-12 col-lg-4 col-md-6 col-sm-6 portSection">
                                          <div class="image-box">
                                              <div class="overlay-container">
                                                  <img src="img/portfolio/portfolio-gga.jpg" alt="Glasgow Green Apartments">
@@ -167,7 +167,7 @@
                                          </div>
                                      </div>
 
-                                     <div class="col-xs-12 col-md-4 col-sm-4 portSection">
+                                     <div class="col-xs-12 col-lg-4 col-md-6 col-sm-6 portSection">
                                          <div class="image-box">
                                              <div class="overlay-container">
                                                  <img src="img/portfolio/portfolio-elite.jpg" alt="Elite Physical Therapy">
@@ -237,18 +237,17 @@
     <div id="footerwrap">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 footer-margin">
                     <h4>CONTACT ME.</h4>
                     <div class="hline-w"></div>
                     <p>
                         Tel: 0141 637 5872<br/>
                         Mob: 07581065547<br/>
-                        <a href="mailto:david@dmcportfolio.co.uk">david@dmcportfolio.co.uk</a><br/>
                     </p>
 
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 footer-margin">
                     <h4>SOCIAL MEDIA.</h4>
                     <div class="hline-w"></div>
                     <p>

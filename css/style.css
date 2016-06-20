@@ -116,16 +116,17 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Pacifico', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 24px;
     float: left;
     padding: 20px;
     line-height: 21px;
     height: 85px;
-    text-transform: lowercase;
+    margin-top: 10px;
+    /*text-transform: lowercase;*/
 }
 
-.logo-spin {
+/*.logo-spin {
     -webkit-transition: -webkit-transform .8s ease-in-out;
     -ms-transition: -ms-transform .8s ease-in-out;
     transition: transform .8s ease-in-out; 
@@ -135,7 +136,7 @@ a:focus {
     transform:rotate(360deg);
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
-}
+}*/
 
 .navbar-header .navbar-brand {
 	color: white;
@@ -186,6 +187,10 @@ a:focus {
     color: #4bacdd;
 }
 
+#footerwrap a:hover, a:focus {
+    color: #87bfd6 !important;
+}
+
 #footerwrap p {
     color: #bfc9d3;
 }
@@ -202,6 +207,12 @@ a:focus {
 
 #footerwrap i:hover {
     color: #87bfd6;
+}
+
+@media (max-width: 1200px) {
+    .footer-margin {
+        margin-bottom: 40px;
+    }
 }
 
 .logoText {
@@ -268,6 +279,10 @@ a:focus {
 
 .mainSlider {
     margin-top: 150px;
+}
+
+.sliderHome {
+    padding: 0px !important;
 }
 
 .preview-pane {
@@ -409,4 +424,16 @@ a:focus {
     padding: 20px 0 10px 0;
     background-color: white;
     border: 1px solid #4bacdd;
+}
+
+/****** HIDE LOGO ******/
+
+.navbar-logo-hide {
+    visibility: display;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo-hide {
+        visibility: hidden;
+    }
 }
