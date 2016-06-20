@@ -1,3 +1,5 @@
 documents/
 *.sln
 *.vs
+App_data/
+*.publishproj
